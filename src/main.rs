@@ -1,6 +1,7 @@
 use actix_web::{ HttpServer, web,App };
 
 mod user;
+mod models;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
